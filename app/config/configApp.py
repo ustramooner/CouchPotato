@@ -88,6 +88,8 @@ class configApp():
         self.setDefault('x264', 'enabled', False)
         self.addSection('mysterbin')
         self.setDefault('mysterbin', 'enabled', False)
+        self.addSection('NZBIndexCom')
+        self.setDefault('NZBIndexCom', 'enabled', False)
 
         self.addSection('NZB')
         self.setDefault('NZB', 'enabled', True)

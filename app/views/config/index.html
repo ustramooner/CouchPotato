@@ -409,7 +409,7 @@
 				</div>
 			</fieldset>
 
-           	<fieldset class="inlineLabels">
+      <fieldset class="inlineLabels">
 				<h3>#alt.binaries.hdtv.x264@EFnet</h3>
 				<div class="ctrlHolder checkbox">
 					<label>Enable</label>
@@ -417,6 +417,15 @@
 					<p class="formHint">
 						HD movies only
 					</p>
+				</div>
+			</fieldset>
+			
+			
+      <fieldset class="inlineLabels" style="float: right!important;">
+				<h3>nzbindex.com</h3>
+				<div class="ctrlHolder checkbox">
+					<label>Enable</label>
+					<input type="checkbox" name="NZBIndexCom.enabled" value="True" ${' checked="checked"' if config.get('NZBIndexCom','enabled') else''} />
 				</div>
 			</fieldset>
 		
